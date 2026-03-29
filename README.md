@@ -52,6 +52,18 @@ I worked on protecting live websites from active threats while ensuring performa
 * Reduced malicious traffic reaching backend servers
 * Improved overall security posture of applications
 * Maintained stable and secure production environments
+## Implementation Details
+
+To improve the security posture, the following headers were configured using Cloudflare:
+
+* Content-Security-Policy
+* Strict-Transport-Security
+* X-Content-Type-Options
+* X-Frame-Options
+* Referrer-Policy
+* Permissions-Policy
+
+These headers were applied using Cloudflare Transform Rules and validated through external security scanning tools.
 
 
 
